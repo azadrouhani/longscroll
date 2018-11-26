@@ -148,7 +148,7 @@ body{
     background:skyblue;
 }
 #img1{
-background:#ad212f url(images/opin_1.png);
+background:#ad212f url("images/opin_1.png");
 background-repeat:no-repeat;
 background-position: center;
 }
@@ -182,7 +182,7 @@ color:white;
     background:skyblue;
 }
 #img2{
-background:#ad212f url(images/gen_1.png);
+background:#ad212f url("images/gen_1.png");
 background-repeat:no-repeat;
 background-position: center;  
 }
@@ -217,7 +217,7 @@ button:hover span.two{
     background:skyblue;
 }
 #img3{
-  background:#ad212f url(images/media-2.png);
+  background:#ad212f url("images/media-2.png");
   background-repeat:no-repeat;
   background-position:center;
 }
@@ -252,7 +252,7 @@ button:hover span.three{
     background:skyblue;
 }
 #img4{
-  background:#ad212f url(images/class-2.png);
+  background:#ad212f url("images/class-2.png");
   background-repeat:no-repeat;
   background-position:center;
 }
@@ -287,7 +287,7 @@ button:hover span.four{
     background:skyblue;
 }
 #img5{
-    background:#ad212f url(images/infinitycorp.png);
+    background:#ad212f url("images/infinitycorp.png");
   background-repeat:no-repeat;
   background-position:center;
 }
@@ -322,7 +322,7 @@ button:hover span.five{
     background:skyblue;
 }
 #img6{
-    background:#ad212f url(images/jack.png);
+    background:#ad212f url("images/jack.png");
   background-repeat:no-repeat;
   background-position:center;
 }
