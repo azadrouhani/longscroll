@@ -1,41 +1,53 @@
-@import url('https://fonts.googleapis.com/css?family=Chakra+Petch|Orbitron|Sunflower:300');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|VT323');
 h1{
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+}
+p{
+    color:white;
+}
+body{
+    background:url("images/background1.png");
+    background-repeat:repeat-x;
+    cursor:url("images/chipset.png"),pointer;
 }
 #title1{
     position:absolute;
     width:1600px;
-    height:70px;
-    background:#d6750a;
+    height:50px;
+    background:black;
     text-align:center;
-    font-size:60px;
+    font-size:30px;
     left:160px;
-    top:12px;
+    top:2px;
     margin:0;
+    padding-top:10px;
     
 }
 #title2{
     position:absolute;
     width:500px;
     height:170px;
-    background:#d6750a;
-    font-size:30px;
-    top:150px;
+    background:black;
+    font-size:23px;
+    top:30px;
     left:700px;
     text-align:center;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    padding-top:10px;
 }
 
 #title3{
     position:absolute;
     width:800px;
-    height:80px;
-    background:#d6750a;
-    font-size:30px;
+    height:110px;
+    background:black;
+    font-size:23px;
     top:650px;
     left:550px;
     text-align:center;
-    font-family: 'Chakra Petch', sans-serif;    
+    font-family: 'Press Start 2P', cursive;
+    padding-top:10px;
 
 }
 #end1{
@@ -43,41 +55,46 @@ h1{
     text-align:center;
     width:800px;
     height:90px;
-    background:#d6750a;
-    font-size:30px;
+    background:black;
+    font-size:25px;
     top:20px;
     left:18600px;
+    padding-top:10px;
 }
 #end2{
     position:absolute;
     text-align:center;
     width:800px;
-    height:50px;
-    background:#d6750a;
-    font-size:30px;
+    height:90px;
+    background:black;
+    font-size:25px;
     top:700px;
     left:18600px;
+    padding-top:10px;
 }
 #main{
     width: 20000px;
+    background-repeat:repeat-x;
     margin-left:0px;
     margin-right:100px;
     height: 900px;
     position:relative;
+    overflow:hidden;
 }
 #counter{
-    font-family: 'Orbitron', sans-serif;
-    height: 40px;
+    font-family: 'VT323', monospace;
+    height: 100px;
     width: 110px;
     line-height: 20px;
     border: 1px solid #99ff99;
     text-align:center;
     position:absolute;
-    top:100px;
-    left:100px;
+    top:-10px;
+    left:40px;
     color:white;
-    font-size:24px;
+    font-size:31px;
     font-weight:900;
+    padding-top:150px;
     background-color:#004600;
 }
 #sdesc{
@@ -86,17 +103,14 @@ h1{
     left:50px;
     height:100px;
     width:800px;
-    background-color:#007040;
-    font-family: 'Sunflower', sans-serif;
+    background-color:black;
+    font-family: 'VT323', monospace;
+    font-size:23px;
     
-}
-body{
-    background: linear-gradient(to bottom, #db6c2b 0%,#d6bc2a 62%,#3ace27 66%,#6b4111 70%,#000000 100%);
-
 }
 #skyline2{
     background-image:url("images/skyline2.png");
-    top:60px;
+    top:-70px;
     left:450px;
     position:fixed;
     width:1000px;
@@ -107,7 +121,7 @@ body{
 #skyline1{
     background-image:url("images/skyline1.png");
     position:fixed;
-    top:60px;
+    top:-70px;
     left:450px;
     width:1000px;
     height:600px;
@@ -116,7 +130,7 @@ body{
 #skyline3{
     background-image:url("images/skyline3.png");
     position:fixed;
-    top:60px;
+    top:-70px;
     left:450px;
     width:1000px;
     height:600px;
@@ -130,25 +144,25 @@ body{
     position:fixed;
     left:1700px;
     top:800px;
-    font-size:32px;
+    font-size:48px;
     background-color:#004600;
     border-color:#99ff99;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'VT323', monospace;
     color:white;
 }
 .menu1{
   color:white;
-  width:100px;
+  width:150px;
   height:100px;
   font-size:1.2em;
   transition: all 0.5s;
-  font-family: 'Sunflower', sans-serif;
+  font-family: 'Press Start 2P', cursive;
 }
 .menu1:hover{
     background:skyblue;
 }
 #img1{
-background:#ad212f url("images/opin1.png");
+background:black url("images/opin1.png");
 background-repeat:no-repeat;
 background-position: center;
 }
@@ -163,26 +177,29 @@ span.one{
   transition: all 2s;
 overflow:hidden;
 }
+button:hover{
+  cursor:url("images/chipset.png"),pointer;  
+}
 button:hover span.one{
-  left:300px;
+  left:200px;
     opacity:100;
-  top:-150px;
+  top:-170px;
   width:900px;
   height:800px;
 }
 .menu2{
 color:white;
-  width:100px;
+  width:150px;
   height:100px;
   font-size:1.2em;
   transition: all 0.5s;
-  font-family: 'Sunflower', sans-serif;
+  font-family: 'Press Start 2P', cursive;
 }
 .menu2:hover{
     background:skyblue;
 }
 #img2{
-background:#ad212f url("images/gen_1.png");
+background:black url("images/gen_1.png");
 background-repeat:no-repeat;
 background-position: center;  
 }
@@ -199,25 +216,25 @@ span.two{
 overflow:hidden;
 }
 button:hover span.two{
-  left:300px;
+  left:200px;
     opacity:100;
-  top:-150px;
+  top:-170px;
   width:900px;
   height:800px;
 }
 .menu3{
   color:white;
-  width:100px;
+  width:150px;
   height:100px;
   font-size:1.2em;
   transition: all 0.5s;
-  font-family: 'Sunflower', sans-serif;
+  font-family: 'Press Start 2P', cursive;
 }
 .menu3:hover{
     background:skyblue;
 }
 #img3{
-  background:#ad212f url("images/media-2.png");
+  background:black url("images/media-2.png");
   background-repeat:no-repeat;
   background-position:center;
 }
@@ -234,25 +251,25 @@ span.three{
 overflow:hidden;
 }
 button:hover span.three{
-  left:300px;
+  left:200px;
     opacity:100;
-  top:-150px;
+  top:-170px;
   width:900px;
   height:800px;
 }
 .menu4{
   color:white;
-  width:100px;
+  width:150px;
   height:100px;
   font-size:1.2em;
   transition: all 0.5s;
-  font-family: 'Sunflower', sans-serif;
+  font-family: 'Press Start 2P', cursive;
 }
 .menu4:hover{
     background:skyblue;
 }
 #img4{
-  background:#ad212f url("images/class-2.png");
+  background:black url("images/class-2.png");
   background-repeat:no-repeat;
   background-position:center;
 }
@@ -269,25 +286,25 @@ span.four{
 overflow:hidden;
 }
 button:hover span.four{
-  left:300px;
+  left:200px;
     opacity:100;
-  top:-150px;
+  top:-170px;
   width:900px;
   height:800px;
 }
 .menu5{
   color:white;
-  width:100px;
+  width:150px;
   height:100px;
   font-size:1.2em;
   transition: all 0.5s;
-  font-family: 'Sunflower', sans-serif;
+  font-family: 'Press Start 2P', cursive;
 }
 .menu5:hover{
     background:skyblue;
 }
 #img5{
-    background:#ad212f url("images/infinitycorp.png");
+    background:black url("images/infinitycorp.png");
   background-repeat:no-repeat;
   background-position:center;
 }
@@ -304,25 +321,25 @@ span.five{
 overflow:hidden;
 }
 button:hover span.five{
-  left:300px;
+  left:200px;
     opacity:100;
-  top:-150px;
+  top:-170px;
   width:900px;
   height:800px;
 }
 .menu6{
   color:white;
-  width:100px;
+  width:150px;
   height:100px;
   font-size:1.2em;
   transition: all 0.5s;
-  font-family: 'Sunflower', sans-serif;
+  font-family: 'Press Start 2P', cursive;
 }
 .menu6:hover{
     background:skyblue;
 }
 #img6{
-    background:#ad212f url("images/jacki.png");
+    background:black url("images/jacki.png");
   background-repeat:no-repeat;
   background-position:center;
 }
@@ -339,22 +356,23 @@ span.six{
 overflow:hidden;
 }
 button:hover span.six{
-  left:300px;
+  left:200px;
     opacity:100;
-  top:-150px;
+  top:-170px;
   width:900px;
   height:800px;
 }
 
 .opin{
- top:0px;
+ top:-20px;
 text-align:center;
-background:#d6750a;
+background:black;
 left:5000px;
 position: absolute;
-font-size:45px;
+font-size:25px;
 height:55px;
 width:900px;
+padding-top:20px;
 }
 
 
@@ -362,85 +380,90 @@ width:900px;
     position:absolute;
     top:150px;
     left:5000px;
-    background:#d6750a;
+    background:black;
 }
 .genetic{
- top:0px;
+ top:-20px;
 text-align:center;
-background:#d6750a;
+background:black;
 left:7000px;
 position: absolute;
-font-size:45px;
+font-size:25px;
 height:55px;
 width:900px;
+padding-top:20px;
 }
 #genintro{
     position:absolute;
     top:150px;
     left:7000px;
-    background:#d6750a;
+    background:black;
 }
 .media{
- top:0px;
+ top:-20px;
 text-align:center;
-background:#d6750a;
+background:black;
 left:9000px;
 position: absolute;
-font-size:45px;
+font-size:25px;
 height:55px;
 width:900px;
+padding-top:20px;
 }
 #mediaintro{
     position:absolute;
     top:150px;
     left:9000px;
-    background:#d6750a;
+    background:black;
 }
 #classintro{
     position:absolute;
     top:150px;
     left:12000px;
-    background:#d6750a;
+    background:black;
 }
 .classism{
- top:0px;
+ top:-20px;
 text-align:center;
-background:#d6750a;
+background:black;
 left:12000px;
 position: absolute;
-font-size:45px;
+font-size:25px;
 height:55px;
 width:900px;
+padding-top:20px;
 }
 .infinity{
- top:0px;
+ top:-20px;
 text-align:center;
-background:#d6750a;
+background:black;
 left:15000px;
 position: absolute;
-font-size:45px;
+font-size:25px;
 height:55px;
 width:900px;
+padding-top:20px;
 }
 #infincorp{
     position:absolute;
     top:150px;
     left:15000px;
-    background:#d6750a;
+    background:black;
 }
 .jack{
- top:0px;
+ top:-20px;
 text-align:center;
-background:#d6750a;
+background:black;
 left:17000px;
 position: absolute;
-font-size:45px;
+font-size:25px;
 height:55px;
 width:900px;
+padding-top:20px;
 }
 #jack{
     position:absolute;
     top:150px;
     left:17000px;
-    background:#d6750a;
+    background:black;
 }
