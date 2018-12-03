@@ -27,7 +27,7 @@ window.onscroll = function() {
 console.log(distance);
 counter.innerHTML = "<span>Year </span>"+Math.floor(distance/800+2022);
 
-    counter.style.left = 40+ distance +"px";
+    counter.style.left = 5+ distance +"px";
     
     if(distance>5000){
         counter.style.backgroundColor = "#ad212f";
